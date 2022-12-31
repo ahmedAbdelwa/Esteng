@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+*{
+
+margin: 0;
+
+padding: 0;
+
+font-family: 'Cairo', sans-serif;
+
+}
+
+form{
+
+    width: 610px;
+
+    margin: 200px auto;
+
+    margin-top: 0;
+
+}
+
+header{
+
+    background-color:#f0f0f0 ;
+
+    width: 100%;
+
+    padding: 10px 200px;
+
+    position: fixed;
+
+    z-index: 999;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 200px;
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.logo{
+
+    text-decoration: none;
+
+    color:lightgreen;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+    font-size: 1.8em;
+
+    font-family: 'Cairo', sans-serif;
+
+    padding-right: 40px;
+
+}
+
+.navigation a{
+
+    color:lightgreen ;
+
+    text-decoration: none;
+
+    font-size: 1.1em;
+
+    font-weight: 500;
+
+    padding-left: 30px;
+
+    font-family: 'Cairo', sans-serif;
+
+    outline: none;
+
+}
+
+.box{
+
+    width: 300px;
+
+    padding: 40px;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50% ;
+
+    transform: translate(50% 50%);
+
+}
+
+
+
+label{
+
+    
+
+    display: block;
+
+    padding: 15px;
+
+    font-size: 25px;
+
+    font-family: 'Cairo', sans-serif;
+
+    text-transform: uppercase;
+
+    color:rgba(32, 1, 1, 0.527);
+
+}
+
+input{
+
+    width: 70%;
+
+    padding: 10px;
+
+    border: 1px solid #797979;
+
+    font-size: 20px;
+
+    border-radius: 7px;
+
+    text-align: center;
+
+    margin: 20px;
+
+    outline-color:rgba(0, 153, 255, 0.37);
+
+    background-color: transparent;
+
+    font-family: 'Cairo', sans-serif;
+
+    color:rgba(32, 1, 1, 0.527);
+
+    right: 50px;
+
+}  
+
+.but-m{
+
+   
+
+}
+
+
+
+button{
+
+    margin:20px;
+
+    padding: 10px;
+
+    width:70% ;
+
+    border: none;
+
+    outline: none;
+
+    cursor:pointer;
+
+    border-radius: 7px;
+
+    background: linear-gradient(90deg, royalblue, lightgreen);
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: whitesmoke;
+
+    justify-content: space-between;
+
+    transition: 0.3s ease;
+
+    outline-style: outset;
+
+    font-family: 'Cairo', sans-serif;
+
+    float: right;
+
+    text-align: center;
+
+    text-decoration: none;
+
+}
+
+button:hover{
+
+    margin: 20px;
+
+    padding: 10px;
+
+    width:70% ;
+
+    border: none;
+
+    outline: none;
+
+    cursor:pointer;
+
+    border-radius: 7px;
+
+    background: linear-gradient(90deg, royalblue, lightgreen);
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color:yellow ;
+
+    justify-content: space-between;
+
+    transition: 0.5s ease;
+
+    outline-style: outset; 
+
+    text-align: center;
+
+    text-decoration: none;
+
+    float: right;
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+@media(max-width:1023px){
+
+    header{
+
+        padding: 12px 20px;
+
+    }
+
+    .copytext{
+
+        padding: 4px 50px;
+
+        text-align: center;
+
+    
+
+    }
+
+}

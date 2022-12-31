@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+
+}
+
+header{
+
+    background-color:#f0f0f0 ;
+
+    width: 100%;
+
+    padding: 10px 200px;
+
+    position: fixed;
+
+    z-index: 999;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 200px;
+
+    font-family: 'Cairo', sans-serif;
+
+
+
+}
+
+h1{
+
+    text-align: center;
+
+    margin-left: 11px;
+
+    color:darkblue;
+
+}
+
+.logo{
+
+    text-decoration: none;
+
+    color:lightgreen;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+    font-size: 1.8em;
+
+    padding-right: 40px;
+
+}
+
+.navigation a{
+
+    color:lightgreen ;
+
+    text-decoration: none;
+
+    font-size: 1.1em;
+
+    font-weight: 500;
+
+    padding-left: 30px;
+
+}
+
+.navigation a:hover{
+
+    color:royalblue ;
+
+}
+
+aside{
+
+ 
+
+    text-align: center;
+
+    width: 80%;
+
+    float: center;
+
+    border: 1px solid black;
+
+    padding: 70px;
+
+    margin-bottom:30px ;
+
+    font-size: 20px;
+
+    background-color:white;
+
+    color: white;
+
+    margin: 0 auto;
+
+    border-radius: 7px;
+
+    align-items:center;
+
+}
+
+    form{
+
+        width: 610px;
+
+        margin: 200px auto;
+
+        margin-top: 0;
+
+}
+
+div{
+
+    width: 100%;
+
+    margin: 1px auto;
+
+    display: none;
+
+}
+
+label{
+
+    display: block;
+
+    padding: 15px;
+
+    font-size: 25px;
+
+    font-family: 'Cairo', sans-serif;
+
+    text-transform: uppercase;
+
+    color:rgba(32, 1, 1, 0.527);
+
+}
+
+input{
+
+    width: 70%;
+
+    padding: 10px;
+
+    border: 1px solid #797979;
+
+    font-size: 20px;
+
+    border-radius: 7px;
+
+    text-align: center;
+
+    margin: 20px;
+
+    outline-color:rgba(0, 153, 255, 0.37);
+
+    background-color: transparent;
+
+    font-family: 'Cairo', sans-serif;
+
+    color:rgba(32, 1, 1, 0.527);
+
+    right: 50px;
+
+}  
+
+.radio{
+
+    display: block;
+
+    padding: 15px;
+
+    font-size: 25px;
+
+    text-transform:uppercase ;
+
+    font-family: 'Cairo', sans-serif;
+
+    color:rgba(32, 1, 1, 0.527);
+
+}
+
+button{
+
+    margin: 20px;
+
+    padding: 10px;
+
+    width:30% ;
+
+    border: none;
+
+    outline: none;
+
+    cursor:pointer;
+
+    border-radius: 7px;
+
+    background: linear-gradient(90deg, royalblue, lightgreen);
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: whitesmoke;
+
+    justify-content: space-between;
+
+    transition: 0.3s ease;
+
+    outline-style: outset;
+
+    font-family: 'Cairo', sans-serif;
+
+    float: right;
+
+    text-align: center;
+
+    
+
+}
+
+button:hover{
+
+    margin: 20px;
+
+    padding: 10px;
+
+    width:30% ;
+
+    border: none;
+
+    outline: none;
+
+    cursor:pointer;
+
+    border-radius: 7px;
+
+    background: linear-gradient(90deg, royalblue, lightgreen);
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color:yellow ;
+
+    justify-content: space-between;
+
+    transition: 0.5s ease;
+
+    outline-style: outset; 
+
+    float: right;
+
+    text-align: center;
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+
+
+  
+
+span{
+
+    display: flex;
+
+    font-style: italic;
+
+    margin-left: 20px;
+
+}
+
+input[type="radio"]{
+
+    display: inline-flex;
+
+    width: 30px;
+
+}
+
+section{
+
+    width: 100%;
+
+    margin: 20px auto;
+
+    text-align: center;
+
+    float: left;
+
+    right: auto;
+
+}
+
+p{
+
+    width: 30px;
+
+    height: 30px;
+
+    border-radius: 50%;
+
+    background: #ededed;
+
+    margin: 2px 5px;
+
+    display: inline-block;
+
+    justify-content: center;
+
+    color: whitesmoke;
+
+    border: 2px solid ;
+
+    border-color:lightgreen ;
+
+    transition: 0.3s ease;
+
+    align-items: center;
+
+    display: inline-flex;
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+select{
+
+    width: 430px;
+
+    height: 44px;
+
+    border-radius: 7px;
+
+    text-align: center ;
+
+    margin: 0 10px 0  17px ; 
+
+    outline-color:rgba(0, 153, 255, 0.37);
+
+    background-color: transparent;  
+
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.copytext{
+
+    width: 100%;
+
+    background-color: #181818;
+
+    padding: 8px 100px;
+
+    text-align: center;
+
+    color:#f0f0f0;
+
+    list-style: none;
+
+    font-family: 'Cairo', sans-serif;
+
+    text-transform: uppercase;
+
+}
+
+@media(max-width:1023px){
+
+    header{
+
+        padding: 12px 20px;
+
+    }
+
+    .copytext{
+
+        padding: 4px 50px;
+
+        text-align: center;
+
+    
+
+    }
+
+}
